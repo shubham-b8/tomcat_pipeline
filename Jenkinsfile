@@ -21,7 +21,7 @@ pipeline {
          steps {
            
             // To run Maven on a Windows agent, use
-           bat "mvn test"
+           bat label: '', script: 'mvn package'
          }
       }
   
