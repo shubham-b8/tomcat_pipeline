@@ -4,7 +4,7 @@ pipeline {
    tools {
       // Install the Maven version configured as "M3" and add it to the path. Demo comment
       maven "Maven"
-      jdk "java"
+      jdk "jdk"
                 
    }
 
