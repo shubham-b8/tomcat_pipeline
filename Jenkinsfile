@@ -17,7 +17,13 @@ pipeline {
 
       }
       
-      
+      stage('Testing Code') {
+         steps {
+           
+            // To run Maven on a Windows agent, use
+           bat "mvn test"
+         }
+      }
   
          
           stage('Code Build') {
