@@ -2,7 +2,7 @@ pipeline {
    agent any
    
 environment {
-       env.Path = env.Path + “;c:\\Windows\\System32”
+       env.Path = env.Path + “;c:\Windows\System32”
    }
    
    tools {
